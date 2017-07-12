@@ -40,7 +40,9 @@ var StateMain = {
   },
 
   sayNo: function () {
+    // Stop music
     this.backgroundMusic.stop();
+    // Game over
     game.state.start('StateOver');
   },
 
